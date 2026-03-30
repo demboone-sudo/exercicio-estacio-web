@@ -1,0 +1,32 @@
+/* Isso muda o corpo inteiro da página*/
+body{
+	background-color:#f0f8ff; /* azul clarinho*/
+	font-family: Arial, sans-serif; /*Letra mais moderna*/
+	color: #333; /*cor do texto cinza escuro*/
+	margin: 40px;/* Dá uma diistância das bordas da tela*/
+}
+
+/* Isso muda todos os seus titulos h1*/
+h1{
+	color:#0056b3; /* azul mais fote para o título */
+	text-align: center;/* centraliza o título*/
+}
+
+/*Isso deixa as tabelas	mais bonitas*/
+table{
+	width:100%;
+	border-collapse: collapse; /*tira o espaço duploentre as bordas */
+background-color: white;
+
+}
+
+th, td {
+    padding: 10px; /* Cria um espaço interno nas células */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Isso pinta apenas o fundo dos títulos da tabela */
+th {
+    background-color: #0056b3; /* O mesmo azul dos seus títulos h1 */
+    color: white;              /* Texto em branco para dar contraste */
+}
